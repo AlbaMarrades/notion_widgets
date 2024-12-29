@@ -44,20 +44,44 @@ body {
 
 
 .slide:first-child {
-  background: url("1.png") no-repeat
+  background: url("january.jpg") no-repeat
     center top/cover;
 }
 
 .slide:nth-child(2) {
-  background: url("2.png") no-repeat
+  background: url("february.jpg") no-repeat
     center top/cover;
 }
 
 .slide:nth-child(3) {
-  background: url("3.png") no-repeat
+  background: url("march.jpg") no-repeat
     center top/cover;
 }
 
+  .slide:nth-child(4) {
+  background: url("april.jpg") no-repeat
+    center top/cover;
+}
+  
+    .slide:nth-child(5) {
+  background: url("may.jpg") no-repeat
+    center top/cover;
+}
+
+    .slide:nth-child(6) {
+  background: url("june.jpg") no-repeat
+    center top/cover;
+}
+
+    .slide:nth-child(7) {
+  background: url("july.jpg") no-repeat
+    center top/cover;
+}
+
+    .slide:nth-child(8) {
+  background: url("august.jpg") no-repeat
+    center top/cover;
+}
 
 .buttons button#prev {
   position: absolute;
@@ -112,6 +136,11 @@ body {
     <div class="slide current"></div>
     <div class="slide"></div>
     <div class="slide"></div>
+    <div class="slide"></div>
+    <div class="slide"></div>
+    <div class="slide"></div>
+    <div class="slide"></div>
+    <div class="slide"></div>
 
   </div>
   <div class="buttons">
@@ -162,9 +191,9 @@ body {
       }
     });
 
-    if (auto) {
-      slideInterval = setInterval(nextSlide, intervalTime);
-    }
+    // if (auto) {
+    //   slideInterval = setInterval(nextSlide, intervalTime);
+    // }
 
   </script>
 
